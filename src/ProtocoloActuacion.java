@@ -1,5 +1,5 @@
 public interface ProtocoloActuacion {
-    void evaluarAmenaza();
-    void fijarObjetivo(Coordenadas c);
-    void activarContramedida();
+    public void evaluarAmenaza();
+    public void fijarObjetivo(Coordenadas c);
+    public void activarContramedida();
 }
